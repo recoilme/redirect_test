@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Example</title>
+    <script>
+        // Check if the current protocol is HTTPS
+        if (window.location.protocol === 'https:') {
+            // Redirect to the same URL with HTTP protocol
+            window.location.href = 'http://45.63.43.232:8090';
+        }
+    </script>
+</head>
+<body>
+    <h1>Redirecting...</h1>
+</body>
+</html>
